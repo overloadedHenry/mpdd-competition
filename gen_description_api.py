@@ -7,7 +7,7 @@ from openai import OpenAI
 
 # Set GPU device
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-os.environ['OPENAI_API_KEY'] = "sk-76467dd11ca44466a6e31d099717d6ba"
+os.environ['OPENAI_API_KEY'] = ""
 os.environ['OPENAI_BASE_URL'] = "https://api.deepseek.com"
 
 model = OpenAI()
